@@ -1,0 +1,1 @@
+powershell.exe "Get-ChildItem -Recurse .\* -Include *.js | Resolve-Path -Relative | ConvertTo-Json | Out-File mirrors.json"
