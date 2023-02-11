@@ -1,6 +1,6 @@
 $Path = "mirrors.js"
 
-Get-ChildItem -Recurse .\* -Include *.js | Resolve-Path -Relative | ConvertTo-Json | Out-File $Path
+Get-ChildItem -Recurse .\mirrors\implementations -Include *.js | Resolve-Path -Relative | ConvertTo-Json | Out-File $Path
 
 $content = Get-Content $Path -Raw
 $content  = $content.Replace(".\\", "")

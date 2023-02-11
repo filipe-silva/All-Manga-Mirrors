@@ -205,6 +205,5 @@ const mirrorsPath = [
     "mirrors\\implementations\\unionleitor.js",
     "mirrors\\implementations\\WebToon.js",
     "mirrors\\implementations\\ZaHardTop.js",
-    "mirrors\\implementations\\ZeroScans.js",
-    "mirrors.js"
+    "mirrors\\implementations\\ZeroScans.js"
 ];
